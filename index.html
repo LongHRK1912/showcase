@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nguyễn Đức Long - Android Developer | HRK Studio</title>
-    <meta name="description" content="Nguyễn Đức Long — Android Developer with 5+ years of experience. Creator of Vault-X, VitaBeat, PicPulse, Chat With Myself, TuneDetect. Built with Kotlin, Jetpack Compose & clean architecture.">
+    <title>HRK Studio - Premium Android Ecosystem</title>
+    <meta name="description" content="HRK Studio — Delivering emotional and useful Android applications. Founded by Nguyễn Đức Long, Android Developer.">
     <meta name="author" content="Nguyễn Đức Long - HRK Studio">
-    <meta name="keywords" content="Android Developer, Kotlin, Jetpack Compose, HRK Studio, Nguyễn Đức Long, Vault-X, VitaBeat, PicPulse, Chat With Myself, TuneDetect">
+    <meta name="keywords" content="HRK Studio, Android Ecosystem, Vault-X, VitaBeat, PicPulse, Chat With Myself, TuneDetect, Nguyễn Đức Long">
 
     <!-- Open Graph -->
-    <meta property="og:title" content="Nguyễn Đức Long - Android Developer | HRK Studio">
-    <meta property="og:description" content="Android Developer with 5+ years of experience. 5 apps published on Google Play. Built with Kotlin, Jetpack Compose & clean architecture.">
+    <meta property="og:title" content="HRK Studio - Premium Android Ecosystem">
+    <meta property="og:description" content="Delivering emotional and useful apps built with love & precision.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://longhrk1912.github.io/showcase/">
     <meta property="og:image" content="https://longhrk1912.github.io/showcase/media/avatar.png">
@@ -20,481 +20,223 @@
 <body>
 <div class="scroll-indicator" id="scrollIndicator"></div>
 
-<div class="container">
-    <header>
-        <div class="header-content">
-            <div class="avatar-container">
-                <img src="media/avatar.png" alt="Nguyễn Đức Long" class="avatar">
-            </div>
-            <div class="header-text">
-                <h1>Nguyễn Đức Long</h1>
-                <div class="subtitle">Android Developer</div>
-                <p class="intro">
-                    With over 5 years of Android development experience, I excel in self-learning and have worked with
-                    nearly all major Android frameworks. I build both XML and Jetpack Compose UIs with confidence,
-                    publish high-quality apps to Google Play, and focus on performance, clean architecture, and modern
-                    Kotlin-based development.
-                </p>
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <div class="contact-icon">📍</div>
-                        <span>Ho Chi Minh City, Vietnam</span>
-                    </div>
-                    <div class="contact-item">
-                        <div class="contact-icon">📞</div>
-                        <span>+84 398870956</span>
-                    </div>
-                    <div class="contact-item">
-                        <div class="contact-icon">✉️</div>
-                        <span>longhrk.dev@gmail.com</span>
-                    </div>
-                </div>
-                <div class="social-links">
-                    <a href="https://github.com/LongHRK1912" target="_blank" class="social-link github" id="social-github">
-                        ⚡ GitHub
-                    </a>
-                    <a href="https://play.google.com/store/apps/dev?id=8558908657643993911" target="_blank" class="social-link playstore" id="social-playstore">
-                        🎮 Google Play
-                    </a>
-                    <a href="https://www.youtube.com/@longhrk" target="_blank" class="social-link youtube" id="social-youtube">
-                        🎬 YouTube
-                    </a>
-                </div>
-                <div class="app-count-badge">🚀 5 Apps Published on Google Play</div>
-            </div>
+<!-- HERO SECTION -->
+<section class="hero-section">
+    <video autoplay loop muted playsinline class="hero-video">
+        <source src="media/intro video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="hero-overlay"></div>
+    
+    <div class="hero-content">
+        <h1 class="brand-title reveal fade-up">HRK Studio</h1>
+        <div class="brand-tagline reveal fade-up delay-1">Delivering emotional and useful apps built with love & precision.</div>
+        
+        <div class="founder-credit reveal fade-up delay-2">
+            <img src="media/avatar.png" alt="Nguyễn Đức Long" class="small-avatar">
+            <span>Founded by <strong>Nguyễn Đức Long</strong> — Android Developer</span>
         </div>
-    </header>
-
-    <section class="section" id="skills-section">
-        <h2>💻 Skills</h2>
-        <div class="skills-grid">
-            <div class="skill-item">Kotlin</div>
-            <div class="skill-item">Java</div>
-            <div class="skill-item">Jetpack Compose</div>
-            <div class="skill-item">Android Jetpack</div>
-            <div class="skill-item">MVVM / Clean Architecture</div>
-            <div class="skill-item">Material Design 3</div>
-            <div class="skill-item">Retrofit</div>
-            <div class="skill-item">Hilt & Koin</div>
-            <div class="skill-item">Room & SQLCipher</div>
-            <div class="skill-item">Kotlin Coroutines & Flow</div>
-            <div class="skill-item">Firebase</div>
-            <div class="skill-item">WorkManager</div>
-            <div class="skill-item">DataStore</div>
-            <div class="skill-item">Git & GitHub</div>
-        </div>
-    </section>
-
-    <section class="section" id="experience-section">
-        <h2>🚀 Work Experience</h2>
-
-        <div class="work-item">
-            <div class="work-header">
-                <div class="work-title">Locstock</div>
-                <div class="work-period">Jul 2023 – Present</div>
-            </div>
-            <div class="company">INTELIN TECHNOLOGY CORPORATION, Ho Chi Minh City</div>
-            <p><strong>Description:</strong> Locstock is a full-featured e-commerce system, similar to Shopee or Lazada, designed to optimize the online shopping experience. The project consists of three separate applications: Customer App, Seller App, and Shipper App.</p>
-
-            <div class="work-details">
-                <div class="detail-section">
-                    <h4>Technologies & Architecture</h4>
-                    <ul>
-                        <li>Programming Language: Kotlin</li>
-                        <li>UI Framework: Jetpack Compose</li>
-                        <li>Architecture: MVVM, Multiple Module</li>
-                        <li>Backend & Database: Firebase</li>
-                        <li>Networking: Retrofit</li>
-                        <li>Dependency Injection: Dagger</li>
-                        <li>Asynchronous: Coroutine</li>
-                    </ul>
-                </div>
-                <div class="detail-section">
-                    <h4>Responsibilities</h4>
-                    <ul>
-                        <li>Team Size: 3 members</li>
-                        <li>Participate in application development</li>
-                        <li>Propose and implement technical solutions</li>
-                        <li>Optimize performance and user experience</li>
-                    </ul>
-                </div>
-            </div>
+        
+        <div class="social-links reveal fade-up delay-3">
+            <a href="https://play.google.com/store/apps/dev?id=8558908657643993911" target="_blank" class="social-link playstore">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M2.518 1.492A1.916 1.916 0 0 0 2 2.656v18.688c0 .416.173.805.475 1.099l.067.065 10.5-10.5v-1.127l-10.457-10.457-.067.068zm11.488 9.38l3.411 3.411-2.471 1.408c-1.446.824-2.894-.01-2.894-.01l-2.022-2.022 3.976-2.787zm4.567-2.716l2.128 1.213c1.472.84 1.472 2.215 0 3.054l-2.128 1.213-3.66-3.66 3.66-3.66-.001-.001-.001-.001.002.002-.002.002zM13.921 7.22l-2.022-2.022c0 0 1.448-.834 2.894-.01l2.471 1.408-3.343 3.344z"/></svg>
+                Explore on Google Play
+            </a>
         </div>
 
-        <div class="work-item">
-            <div class="work-header">
-                <div class="work-title">GiotMauVang</div>
-                <div class="work-period">Oct 2023 – Present</div>
-            </div>
-            <div class="company">INTELIN TECHNOLOGY CORPORATION, Ho Chi Minh City</div>
-            <p><strong>Description:</strong> GiotMauVang is a mobile application designed to facilitate voluntary blood donation. It enables users to easily register for blood donation events, track their donation history, and monitor blood quality.</p>
-
-            <div class="work-details">
-                <div class="detail-section">
-                    <h4>Technologies & Architecture</h4>
-                    <ul>
-                        <li>Programming Language: Kotlin</li>
-                        <li>UI Framework: XML</li>
-                        <li>Architecture: MVVM</li>
-                        <li>Backend & Database: Firebase</li>
-                        <li>Networking: Retrofit</li>
-                        <li>Dependency Injection: Dagger</li>
-                    </ul>
-                </div>
-                <div class="detail-section">
-                    <h4>Responsibilities</h4>
-                    <ul>
-                        <li>Team Size: 2 members</li>
-                        <li>Fix bugs and improve app stability</li>
-                        <li>Update and enhance the UI</li>
-                    </ul>
-                </div>
-            </div>
+        <div class="scroll-down-prompt reveal fade-up delay-4" id="scrollPrompt">
+            <span>Discover The Ecosystem</span>
+            <div class="scroll-arrow">↓</div>
         </div>
+    </div>
+</section>
 
-        <div class="work-item">
-            <div class="work-header">
-                <div class="work-title">Photomash</div>
-                <div class="work-period">Aug 2022 – Jul 2023</div>
+<!-- PRODUCTS / ECOSYSTEM SECTION (Z-PATTERN) -->
+<section class="products-section" id="products-section">
+    
+    <!-- VitaBeat -->
+    <div class="product-row reveal fade-up">
+        <div class="product-content">
+            <div class="product-header">
+                <img src="media/vitaBeat.png" alt="VitaBeat Icon" class="product-icon">
+                <h2 class="product-name">VitaBeat</h2>
             </div>
-            <div class="company">RIKKEISOFT CORPORATION</div>
-            <p><strong>Description:</strong> Photomash is a specialized photo editing app designed to make pets look even cuter on social media. It offers a variety of adorable, ready-to-use templates for pet owners and businesses.</p>
-
-            <div class="work-details">
-                <div class="detail-section">
-                    <h4>Technologies & Architecture</h4>
-                    <ul>
-                        <li>Programming Language: Kotlin</li>
-                        <li>UI: Jetpack Compose, XML</li>
-                        <li>Architecture: MVVM, Multiple Module</li>
-                        <li>Backend: Firebase</li>
-                        <li>Networking: Retrofit</li>
-                        <li>DI: Dagger</li>
-                        <li>Async: Coroutine, RxJava</li>
-                    </ul>
-                </div>
-                <div class="detail-section">
-                    <h4>Responsibilities</h4>
-                    <ul>
-                        <li>Team Size: 7 members</li>
-                        <li>Participate in project development</li>
-                        <li>Propose technical solutions</li>
-                        <li>Collaborate with development team</li>
-                        <li>Communicate with customers</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <div class="work-item">
-            <div class="work-header">
-                <div class="work-title">Remove Background</div>
-                <div class="work-period">Jul 2022 – Dec 2022</div>
-            </div>
-            <div class="company">RIKKEISOFT CORPORATION, Da Nang</div>
-            <p><strong>Description:</strong> Remove Background is an AI-powered photo editing app that allows users to remove image backgrounds with just one tap. Features an Avatar Maker for creating personalized profile pictures.</p>
-
-            <div class="work-details">
-                <div class="detail-section">
-                    <h4>Technologies & Architecture</h4>
-                    <ul>
-                        <li>Programming Language: Kotlin</li>
-                        <li>UI: Jetpack Compose, XML</li>
-                        <li>Architecture: MVVM, Multiple Module</li>
-                        <li>Backend: Firebase</li>
-                        <li>Async: Coroutine, RxJava</li>
-                    </ul>
-                </div>
-                <div class="detail-section">
-                    <h4>Responsibilities</h4>
-                    <ul>
-                        <li>Team Size: 5 members</li>
-                        <li>Project development</li>
-                        <li>Technical solutions</li>
-                        <li>Client collaboration</li>
-                        <li>Customer communication</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <div class="work-item">
-            <div class="work-header">
-                <div class="work-title">Stories App</div>
-                <div class="work-period">Feb 2022 – Aug 2022</div>
-            </div>
-            <div class="company">RIKKEISOFT CORPORATION, Da Nang</div>
-            <p><strong>Description:</strong> Stories App is a photo editing application that provides users with a collection of pre-designed and trendy templates to create stunning images for social media.</p>
-
-            <div class="work-details">
-                <div class="detail-section">
-                    <h4>Technologies & Architecture</h4>
-                    <ul>
-                        <li>Programming Language: Kotlin</li>
-                        <li>UI Framework: XML</li>
-                        <li>Architecture: MVVM</li>
-                        <li>Backend: Firebase</li>
-                        <li>Networking: Retrofit</li>
-                    </ul>
-                </div>
-                <div class="detail-section">
-                    <h4>Responsibilities</h4>
-                    <ul>
-                        <li>Team Size: 2 members</li>
-                        <li>Project development</li>
-                        <li>Technical solutions</li>
-                        <li>Team collaboration</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section" id="projects-section">
-        <h2>🎯 Personal Projects</h2>
-
-        <div class="projects-carousel">
-            <div class="carousel-container">
-                <div class="carousel-track" id="carouselTrack">
-                    <!-- VitaBeat -->
-                    <div class="carousel-slide">
-                        <div class="project-showcase">
-                            <img src="media/vitaBeat.png" alt="VitaBeat" class="project-logo">
-                            <h3 class="project-title">VitaBeat</h3>
-                            <p class="project-tagline">Med & Heart Monitor</p>
-
-                            <p class="project-description">
-                                Smart pill reminder, medication tracker & camera heart rate monitor. Stay on top of your health with intelligent scheduling and real-time vitals monitoring — all in one app.
-                            </p>
-
-                            <h4>Key Features</h4>
-                            <ul class="project-features">
-                                <li>Smart medication reminders with flexible scheduling</li>
-                                <li>Camera-based heart rate monitoring (PPG)</li>
-                                <li>Medication history tracking & analytics</li>
-                                <li>Clean Material Design 3 interface</li>
-                                <li>Local-first with privacy focus</li>
-                            </ul>
-
-                            <div class="tech-stack">
-                                <strong>Tech Stack:</strong> Kotlin • Jetpack Compose • Room • WorkManager • CameraX • Material 3
-                            </div>
-
-                            <a href="https://play.google.com/store/apps/details?id=com.hrk.vitabeat" target="_blank" class="project-link" id="project-link-vitabeat">
-                                📱 Download on Google Play
-                            </a>
-
-                            <img src="media/vitaBeatBanner.png" alt="VitaBeat Banner" class="project-banner">
-                        </div>
-                    </div>
-
-                    <!-- PicPulse -->
-                    <div class="carousel-slide">
-                        <div class="project-showcase">
-                            <img src="media/picPulse.png" alt="PicPulse" class="project-logo">
-                            <h3 class="project-title">PicPulse</h3>
-                            <p class="project-tagline">Daily Photo Journal</p>
-
-                            <p class="project-description">
-                                Capture one photo a day with automatic time, location and gentle reminders. Build a visual diary of your life, one snapshot at a time.
-                            </p>
-
-                            <h4>Key Features</h4>
-                            <ul class="project-features">
-                                <li>One photo per day — simple & focused</li>
-                                <li>Automatic time & location tagging</li>
-                                <li>Gentle daily reminders</li>
-                                <li>Beautiful photo timeline view</li>
-                                <li>Privacy-first — no cloud uploads by default</li>
-                            </ul>
-
-                            <div class="tech-stack">
-                                <strong>Tech Stack:</strong> Kotlin • Jetpack Compose • Room • CameraX • WorkManager • Material 3
-                            </div>
-
-                            <a href="https://play.google.com/store/apps/details?id=com.hrk.picpulse" target="_blank" class="project-link" id="project-link-picpulse">
-                                📱 Download on Google Play
-                            </a>
-
-                            <img src="media/picPulseBanner.png" alt="PicPulse Banner" class="project-banner">
-                        </div>
-                    </div>
-
-                    <!-- Vault-X -->
-                    <div class="carousel-slide">
-                        <div class="project-showcase">
-                            <img src="media/vaultX.png" alt="Vault-X" class="project-logo">
-                            <h3 class="project-title">Vault-X</h3>
-                            <p class="project-tagline">Private Encrypted File Vault</p>
-
-                            <p class="project-highlight">Absolute privacy. Military-grade encryption. Zero knowledge.</p>
-
-                            <p class="project-description">
-                                Your photos, videos, documents and any files are encrypted with <strong>AES-256-GCM</strong> and stored only in Android's private internal storage – completely hidden from other apps and file managers.
-                            </p>
-
-                            <div class="privacy-badge">
-                                <strong>Privacy by design</strong><br>
-                                ✓ No tracking • No analytics • No accounts • No cloud by default<br>
-                                ✓ Developer cannot access your files – ever<br>
-                                ✓ Only you hold the key
-                            </div>
-
-                            <h4>Key Features</h4>
-                            <ul class="project-features">
-                                <li>Master Password + Biometric unlock (Fingerprint/Face)</li>
-                                <li>Auto-lock on exit or inactivity</li>
-                                <li>Unique per-file encryption keys</li>
-                                <li>Zero plaintext on disk</li>
-                                <li>Secure viewer with on-demand decryption</li>
-                                <li>Encrypted cloud backup (Google Drive • Dropbox • OneDrive)</li>
-                                <li>Secure delete with optional random-byte overwrite</li>
-                                <li>Full restore on reinstall using your Master Password</li>
-                            </ul>
-
-                            <div class="tech-stack">
-                                <strong>Tech Stack:</strong> Kotlin • Jetpack Compose • AES-256-GCM • SQLCipher • Room • BiometricPrompt • Storage Access Framework
-                            </div>
-
-                            <a href="https://play.google.com/store/apps/details?id=com.hrk.vault_x" target="_blank" class="project-link" id="project-link-vaultx">
-                                📱 Download on Google Play
-                            </a>
-
-                            <img src="media/vaultXBanner.png" alt="Vault-X Banner" class="project-banner">
-                        </div>
-                    </div>
-
-                    <!-- Chat With Myself -->
-                    <div class="carousel-slide">
-                        <div class="project-showcase">
-                            <img src="media/ChatWithMyself.png" alt="Chat With Myself" class="project-logo">
-                            <h3 class="project-title">Chat With Myself</h3>
-                            <p class="project-tagline">Talk to Your Past & Future Self</p>
-
-                            <p class="project-description">
-                                A personal time-capsule journal that talks back to you across time.<br><br>
-                                Write a message today → choose 1, 3, 7 or 30 days → it returns as if your <strong>Past Self</strong> is texting you.
-                            </p>
-
-                            <h4>Features</h4>
-                            <ul class="project-features">
-                                <li>Real chat UI (Present You ↔ Past You)</li>
-                                <li>Delayed delivery with smooth animations</li>
-                                <li>PIN + Biometric lock</li>
-                                <li>End-to-end encryption (SQLCipher + AES-256)</li>
-                                <li>Daily reflection prompts</li>
-                                <li>Pastel Light / Dark / Calm themes</li>
-                                <li>Local-first (no account required)</li>
-                                <li>JSON export & Firebase encrypted sync</li>
-                                <li>Home-screen widget (coming soon)</li>
-                            </ul>
-
-                            <div class="upcoming-features">
-                                <strong>Upcoming:</strong> Future AI Self • Voice notes • Mood analytics • Secret Mode (hidden icon)
-                            </div>
-
-                            <div class="tech-stack">
-                                <strong>Tech Stack:</strong> Kotlin • Jetpack Compose • Room + SQLCipher • WorkManager • BiometricPrompt • Firebase
-                            </div>
-
-                            <a href="https://play.google.com/store/apps/details?id=com.hrk.chatwithmyself" target="_blank" class="project-link" id="project-link-chatwithmyself">
-                                📱 Download on Google Play
-                            </a>
-
-                            <img src="media/chatWithMyselfBanner.png" alt="Chat With Myself Banner" class="project-banner">
-                        </div>
-                    </div>
-
-                    <!-- TuneDetect -->
-                    <div class="carousel-slide">
-                        <div class="project-showcase">
-                            <img src="media/TuneDetect.png" alt="TuneDetect" class="project-logo">
-                            <h3 class="project-title">TuneDetect</h3>
-                            <p class="project-tagline">Song Recognition by Sound</p>
-
-                            <p class="project-description">
-                                Instantly identify any song playing around you – café, radio, party, anywhere.
-                            </p>
-
-                            <h4>Features</h4>
-                            <ul class="project-features">
-                                <li>Ultra-fast recognition (usually &lt; 4 seconds)</li>
-                                <li>Direct links to Spotify • YouTube • Apple Music • Deezer</li>
-                                <li>Clean Material You design</li>
-                                <li>Full history with search & filter</li>
-                            </ul>
-
-                            <div class="tech-stack">
-                                <strong>Tech Stack:</strong> Kotlin • Jetpack Compose • ACRCloud / AudD API • Material 3
-                            </div>
-
-                            <a href="https://play.google.com/store/apps/details?id=hrk.studio.tunedetect" target="_blank" class="project-link" id="project-link-tunedetect">
-                                📱 Download on Google Play
-                            </a>
-
-                            <img src="media/tuneDetectBanner.png" alt="TuneDetect Banner" class="project-banner">
-                        </div>
-                    </div>
-
-                    <!-- AdMobLib -->
-                    <div class="carousel-slide">
-                        <div class="project-showcase">
-                            <div class="project-icon-large">📚</div>
-                            <h3 class="project-title">AdMobLib</h3>
-                            <p class="project-tagline">Lightweight Android AdMob Library</p>
-
-                            <p class="project-description">
-                                Simple, reusable AAR library for App Open, Banner, Interstitial and Rewarded ads.<br>
-                                One-line setup • Koin-ready • Minimal & clean API.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="carousel-dots" id="carouselDots"></div>
-
-            <button class="carousel-btn prev" id="prevBtn" aria-label="Previous project">‹</button>
-            <button class="carousel-btn next" id="nextBtn" aria-label="Next project">›</button>
-        </div>
-
-        <div class="studio-badge" style="margin-top: 30px;">
-            <h3>HRK Studio</h3>
-            <p>Built with love in Vietnam 🇻🇳</p>
-            <p style="font-size: 0.9em; margin-top: 10px;">
-                Delivering emotional and useful apps: message your future self, detect songs instantly,
-                secure your private files, track your health — all with clean design and full privacy.
+            <h3 class="product-headline">Med & Heart Monitor</h3>
+            <p class="product-desc">
+                Smart pill reminder, medication tracker & camera heart rate monitor. Stay on top of your health with intelligent scheduling and real-time vitals monitoring — all in one beautifully designed app.
             </p>
-            <p style="font-size: 0.85em; margin-top: 10px; opacity: 0.8;">© 2025 – 2026 LongHRK – All apps are built with ❤️ in Vietnam</p>
+            <div class="tech-stack-pills">
+                <span class="tech-pill">Kotlin</span>
+                <span class="tech-pill">Compose</span>
+                <span class="tech-pill">CameraX</span>
+            </div>
+            <a href="https://play.google.com/store/apps/details?id=com.hrk.vitabeat" target="_blank" class="btn-primary">Download App</a>
+        </div>
+        <div class="product-visual">
+            <img src="media/vitaBeatBanner.png" alt="VitaBeat Showcase" class="product-banner">
+        </div>
+    </div>
+
+    <!-- PicPulse (Reverse Layout) -->
+    <div class="product-row reverse reveal fade-up">
+        <div class="product-content">
+            <div class="product-header">
+                <img src="media/picPulse.png" alt="PicPulse Icon" class="product-icon">
+                <h2 class="product-name">PicPulse</h2>
+            </div>
+            <h3 class="product-headline">Daily Photo Journal</h3>
+            <p class="product-desc">
+                Capture one photo a day with automatic time, location, and gentle reminders. Build a visual diary of your life, one snapshot at a time, completely offline and privacy-first.
+            </p>
+            <div class="tech-stack-pills">
+                <span class="tech-pill">Kotlin</span>
+                <span class="tech-pill">Compose</span>
+                <span class="tech-pill">WorkManager</span>
+            </div>
+            <a href="https://play.google.com/store/apps/details?id=com.hrk.picpulse" target="_blank" class="btn-primary">Download App</a>
+        </div>
+        <div class="product-visual">
+            <img src="media/picPulseBanner.png" alt="PicPulse Showcase" class="product-banner">
+        </div>
+    </div>
+
+    <!-- Vault-X -->
+    <div class="product-row reveal fade-up">
+        <div class="product-content">
+            <div class="product-header">
+                <img src="media/vaultX.png" alt="Vault-X Icon" class="product-icon">
+                <h2 class="product-name">Vault-X</h2>
+            </div>
+            <h3 class="product-headline">Private Encrypted File Vault</h3>
+            <p class="product-desc">
+                Absolute privacy with military-grade encryption. Your photos, videos, and documents are encrypted with <strong>AES-256-GCM</strong> and hidden securely in Android's private internal storage.
+            </p>
+            <div class="tech-stack-pills">
+                <span class="tech-pill">AES-256-GCM</span>
+                <span class="tech-pill">SQLCipher</span>
+                <span class="tech-pill">Biometrics</span>
+            </div>
+            <a href="https://play.google.com/store/apps/details?id=com.hrk.vault_x" target="_blank" class="btn-primary">Download App</a>
+        </div>
+        <div class="product-visual">
+            <img src="media/vaultXBanner.png" alt="Vault-X Showcase" class="product-banner">
+        </div>
+    </div>
+
+    <!-- Chat With Myself (Reverse) -->
+    <div class="product-row reverse reveal fade-up">
+        <div class="product-content">
+            <div class="product-header">
+                <img src="media/ChatWithMyself.png" alt="Chat With Myself Icon" class="product-icon">
+                <h2 class="product-name">Chat With Myself</h2>
+            </div>
+            <h3 class="product-headline">Talk to Your Past & Future Self</h3>
+            <p class="product-desc">
+                A personal time-capsule journal. Write a message today, choose a delay, and receive it later as if your Past Self is texting you. Features a real chat UI and end-to-end encryption.
+            </p>
+            <div class="tech-stack-pills">
+                <span class="tech-pill">Kotlin</span>
+                <span class="tech-pill">Firebase</span>
+                <span class="tech-pill">SQLCipher</span>
+            </div>
+            <a href="https://play.google.com/store/apps/details?id=com.hrk.chatwithmyself" target="_blank" class="btn-primary">Download App</a>
+        </div>
+        <div class="product-visual">
+            <img src="media/chatWithMyselfBanner.png" alt="Chat With Myself Showcase" class="product-banner">
+        </div>
+    </div>
+
+    <!-- TuneDetect -->
+    <div class="product-row reveal fade-up">
+        <div class="product-content">
+            <div class="product-header">
+                <img src="media/TuneDetect.png" alt="TuneDetect Icon" class="product-icon">
+                <h2 class="product-name">TuneDetect</h2>
+            </div>
+            <h3 class="product-headline">Song Recognition by Sound</h3>
+            <p class="product-desc">
+                Instantly identify any song playing around you. Ultra-fast recognition with direct links to Spotify, YouTube, and Apple Music. Clean Material You design with full search history.
+            </p>
+            <div class="tech-stack-pills">
+                <span class="tech-pill">Compose</span>
+                <span class="tech-pill">ACRCloud API</span>
+            </div>
+            <a href="https://play.google.com/store/apps/details?id=hrk.studio.tunedetect" target="_blank" class="btn-primary">Download App</a>
+        </div>
+        <div class="product-visual">
+            <img src="media/tuneDetectBanner.png" alt="TuneDetect Showcase" class="product-banner">
+        </div>
+    </div>
+
+</section>
+
+<!-- FOUNDER SECTION -->
+<div class="container main-content">
+    
+    <div class="section-header reveal fade-up">
+        <h2 class="section-title">Behind the Ecosystem</h2>
+        <p class="section-subtitle">The architect bridging the gap between code and user emotion.</p>
+    </div>
+
+    <section class="founder-section reveal fade-up delay-1">
+        <div class="glass-card founder-card">
+            <div class="founder-grid">
+                
+                <div class="founder-info">
+                    <img src="media/avatar.png" alt="Nguyễn Đức Long" class="large-avatar">
+                    <h3>Nguyễn Đức Long</h3>
+                    <p class="role">Android Developer</p>
+                    <p class="bio">
+                        With over 5 years of Android development experience, I excel in building premium, high-performance applications. I craft fluid UIs with Jetpack Compose, enforce clean architecture, and aim to deliver top-tier user experiences.
+                    </p>
+                    
+                    <div class="contact-links">
+                        <a href="mailto:longhrk.dev@gmail.com" class="contact-pill"><span class="icon">✉️</span> longhrk.dev@gmail.com</a>
+                        <a href="https://github.com/LongHRK1912" target="_blank" class="contact-pill"><span class="icon">💻</span> GitHub</a>
+                        <a href="https://www.youtube.com/@longhrk" target="_blank" class="contact-pill"><span class="icon">🎥</span> YouTube</a>
+                    </div>
+                </div>
+
+                <div class="founder-expertise">
+                    <h4>Core Expertise</h4>
+                    <div class="skills-grid">
+                        <div class="skill-item">Kotlin</div>
+                        <div class="skill-item">Jetpack Compose</div>
+                        <div class="skill-item">MVVM / Clean Arch</div>
+                        <div class="skill-item">Material Design 3</div>
+                        <div class="skill-item">Retrofit & Room</div>
+                        <div class="skill-item">Coroutines & Flow</div>
+                        <div class="skill-item">Firebase & CI/CD</div>
+                    </div>
+
+                    <h4 style="margin-top: 40px;">Professional Journey</h4>
+                    <div class="timeline-compact">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <strong>Locstock & GiotMauVang</strong> <span>(2023 - Present)</span>
+                                <div class="text-muted">INTELIN TECHNOLOGY CORP</div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <strong>Photomash & Remove BG</strong> <span>(2022 - 2023)</span>
+                                <div class="text-muted">RIKKEISOFT CORP</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </section>
 
-    <section class="section" id="languages-section">
-        <h2>🌐 Languages</h2>
-        <div class="languages">
-            <div class="language-item">
-                <div>Vietnamese</div>
-                <div style="font-size: 0.9em; opacity: 0.9;">Native language</div>
-            </div>
-            <div class="language-item">
-                <div>English</div>
-                <div style="font-size: 0.9em; opacity: 0.9;">Upper Intermediate (B2)</div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section" id="education-section">
-        <h2>🎓 Education</h2>
-        <div class="education-item">
-            <div class="education-header">
-                <div class="degree">Software Engineering</div>
-                <div class="gpa">GPA: 3.4/4</div>
-            </div>
-            <div class="company">DANAVTC - Da Nang</div>
-            <div style="color: #764ba2; font-weight: 600;">Aug 2019 – Feb 2022</div>
-            <div style="margin-top: 10px; color: #667eea; font-weight: 600;">Grade: Good</div>
-        </div>
-    </section>
+    <!-- FOOTER INFO -->
+    <footer class="footer reveal fade-up delay-2">
+        <p class="footer-title">HRK Studio</p>
+        <p class="text-muted">© 2025 – 2026 LongHRK. Built with ❤️ in Vietnam 🇻🇳</p>
+    </footer>
 </div>
 
 <script src="script.js"></script>
