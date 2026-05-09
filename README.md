@@ -10,10 +10,13 @@
 
 ### VitaBeat – Med & Heart Monitor
 <p align="center">
-  <br>
+  <img src="media/vitaBeat.png" alt="VitaBeat" width="140"/>
+  <br><br>
   <a href="https://play.google.com/store/apps/details?id=com.hrk.vitabeat">
     <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" width="220"/>
   </a>
+  <br><br>
+  <img src="media/vitaBeatBanner.png" alt="VitaBeat Banner" width="600"/>
 </p>
 
 **Smart pill reminder, medication tracker & camera heart rate monitor.**
@@ -36,10 +39,13 @@ Kotlin • Jetpack Compose • Room • WorkManager • CameraX • Material 3
 
 ### PicPulse – Daily Photo Journal
 <p align="center">
-  <br>
+  <img src="media/picPulse.png" alt="PicPulse" width="140"/>
+  <br><br>
   <a href="https://play.google.com/store/apps/details?id=com.hrk.picpulse">
     <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" width="220"/>
   </a>
+  <br><br>
+  <img src="media/picPulseBanner.png" alt="PicPulse Banner" width="600"/>
 </p>
 
 **Capture one photo a day with automatic time, location and gentle reminders.**
