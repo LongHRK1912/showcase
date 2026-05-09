@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HRK Studio - Premium Android Ecosystem</title>
+    <title data-i18n="meta_title">HRK Studio - Premium Android Ecosystem</title>
     <meta name="description" content="HRK Studio — Delivering emotional and useful Android applications. Founded by Nguyễn Đức Long, Android Developer.">
     <meta name="author" content="Nguyễn Đức Long - HRK Studio">
     <meta name="keywords" content="HRK Studio, Android Ecosystem, Vault-X, VitaBeat, PicPulse, Chat With Myself, TuneDetect, Nguyễn Đức Long">
@@ -20,6 +20,13 @@
 <body>
 <div class="scroll-indicator" id="scrollIndicator"></div>
 
+<!-- Language Switcher -->
+<div class="language-switcher">
+    <button class="lang-btn active" data-lang="en">🇺🇸 EN</button>
+    <div class="lang-divider"></div>
+    <button class="lang-btn" data-lang="vi">🇻🇳 VI</button>
+</div>
+
 <!-- HERO SECTION -->
 <section class="hero-section">
     <video autoplay loop muted playsinline class="hero-video">
@@ -30,22 +37,22 @@
     
     <div class="hero-content">
         <h1 class="brand-title reveal fade-up">HRK Studio</h1>
-        <div class="brand-tagline reveal fade-up delay-1">Delivering emotional and useful apps built with love & precision.</div>
+        <div class="brand-tagline reveal fade-up delay-1" data-i18n="hero_tagline">Delivering emotional and useful apps built with love & precision.</div>
         
         <div class="founder-credit reveal fade-up delay-2">
             <img src="media/avatar.png" alt="Nguyễn Đức Long" class="small-avatar">
-            <span>Founded by <strong>Nguyễn Đức Long</strong> — Android Developer</span>
+            <span data-i18n="hero_founder">Founded by <strong>Nguyễn Đức Long</strong> — Android Developer</span>
         </div>
         
         <div class="social-links reveal fade-up delay-3">
             <a href="https://play.google.com/store/apps/dev?id=8558908657643993911" target="_blank" class="social-link playstore">
                 <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M2.518 1.492A1.916 1.916 0 0 0 2 2.656v18.688c0 .416.173.805.475 1.099l.067.065 10.5-10.5v-1.127l-10.457-10.457-.067.068zm11.488 9.38l3.411 3.411-2.471 1.408c-1.446.824-2.894-.01-2.894-.01l-2.022-2.022 3.976-2.787zm4.567-2.716l2.128 1.213c1.472.84 1.472 2.215 0 3.054l-2.128 1.213-3.66-3.66 3.66-3.66-.001-.001-.001-.001.002.002-.002.002zM13.921 7.22l-2.022-2.022c0 0 1.448-.834 2.894-.01l2.471 1.408-3.343 3.344z"/></svg>
-                Explore on Google Play
+                <span data-i18n="hero_explore">Explore on Google Play</span>
             </a>
         </div>
 
         <div class="scroll-down-prompt reveal fade-up delay-4" id="scrollPrompt">
-            <span>Discover The Ecosystem</span>
+            <span data-i18n="hero_discover">Discover The Ecosystem</span>
             <div class="scroll-arrow">↓</div>
         </div>
     </div>
@@ -61,8 +68,8 @@
                 <img src="media/vitaBeat.png" alt="VitaBeat Icon" class="product-icon">
                 <h2 class="product-name">VitaBeat</h2>
             </div>
-            <h3 class="product-headline">Med & Heart Monitor</h3>
-            <p class="product-desc">
+            <h3 class="product-headline" data-i18n="vitabeat_headline">Med & Heart Monitor</h3>
+            <p class="product-desc" data-i18n="vitabeat_desc">
                 Smart pill reminder, medication tracker & camera heart rate monitor. Stay on top of your health with intelligent scheduling and real-time vitals monitoring — all in one beautifully designed app.
             </p>
             <div class="tech-stack-pills">
@@ -70,7 +77,7 @@
                 <span class="tech-pill">Compose</span>
                 <span class="tech-pill">CameraX</span>
             </div>
-            <a href="https://play.google.com/store/apps/details?id=com.hrk.vitabeat" target="_blank" class="btn-primary">Download App</a>
+            <a href="https://play.google.com/store/apps/details?id=com.hrk.vitabeat" target="_blank" class="btn-primary" data-i18n="btn_download">Download App</a>
         </div>
         <div class="product-visual">
             <img src="media/vitaBeatBanner.png" alt="VitaBeat Showcase" class="product-banner">
@@ -84,8 +91,8 @@
                 <img src="media/picPulse.png" alt="PicPulse Icon" class="product-icon">
                 <h2 class="product-name">PicPulse</h2>
             </div>
-            <h3 class="product-headline">Daily Photo Journal</h3>
-            <p class="product-desc">
+            <h3 class="product-headline" data-i18n="picpulse_headline">Daily Photo Journal</h3>
+            <p class="product-desc" data-i18n="picpulse_desc">
                 Capture one photo a day with automatic time, location, and gentle reminders. Build a visual diary of your life, one snapshot at a time, completely offline and privacy-first.
             </p>
             <div class="tech-stack-pills">
@@ -93,7 +100,7 @@
                 <span class="tech-pill">Compose</span>
                 <span class="tech-pill">WorkManager</span>
             </div>
-            <a href="https://play.google.com/store/apps/details?id=com.hrk.picpulse" target="_blank" class="btn-primary">Download App</a>
+            <a href="https://play.google.com/store/apps/details?id=com.hrk.picpulse" target="_blank" class="btn-primary" data-i18n="btn_download">Download App</a>
         </div>
         <div class="product-visual">
             <img src="media/picPulseBanner.png" alt="PicPulse Showcase" class="product-banner">
@@ -107,8 +114,8 @@
                 <img src="media/vaultX.png" alt="Vault-X Icon" class="product-icon">
                 <h2 class="product-name">Vault-X</h2>
             </div>
-            <h3 class="product-headline">Private Encrypted File Vault</h3>
-            <p class="product-desc">
+            <h3 class="product-headline" data-i18n="vaultx_headline">Private Encrypted File Vault</h3>
+            <p class="product-desc" data-i18n="vaultx_desc">
                 Absolute privacy with military-grade encryption. Your photos, videos, and documents are encrypted with <strong>AES-256-GCM</strong> and hidden securely in Android's private internal storage.
             </p>
             <div class="tech-stack-pills">
@@ -116,7 +123,7 @@
                 <span class="tech-pill">SQLCipher</span>
                 <span class="tech-pill">Biometrics</span>
             </div>
-            <a href="https://play.google.com/store/apps/details?id=com.hrk.vault_x" target="_blank" class="btn-primary">Download App</a>
+            <a href="https://play.google.com/store/apps/details?id=com.hrk.vault_x" target="_blank" class="btn-primary" data-i18n="btn_download">Download App</a>
         </div>
         <div class="product-visual">
             <img src="media/vaultXBanner.png" alt="Vault-X Showcase" class="product-banner">
@@ -130,8 +137,8 @@
                 <img src="media/ChatWithMyself.png" alt="Chat With Myself Icon" class="product-icon">
                 <h2 class="product-name">Chat With Myself</h2>
             </div>
-            <h3 class="product-headline">Talk to Your Past & Future Self</h3>
-            <p class="product-desc">
+            <h3 class="product-headline" data-i18n="chatwithmyself_headline">Talk to Your Past & Future Self</h3>
+            <p class="product-desc" data-i18n="chatwithmyself_desc">
                 A personal time-capsule journal. Write a message today, choose a delay, and receive it later as if your Past Self is texting you. Features a real chat UI and end-to-end encryption.
             </p>
             <div class="tech-stack-pills">
@@ -139,7 +146,7 @@
                 <span class="tech-pill">Firebase</span>
                 <span class="tech-pill">SQLCipher</span>
             </div>
-            <a href="https://play.google.com/store/apps/details?id=com.hrk.chatwithmyself" target="_blank" class="btn-primary">Download App</a>
+            <a href="https://play.google.com/store/apps/details?id=com.hrk.chatwithmyself" target="_blank" class="btn-primary" data-i18n="btn_download">Download App</a>
         </div>
         <div class="product-visual">
             <img src="media/chatWithMyselfBanner.png" alt="Chat With Myself Showcase" class="product-banner">
@@ -153,15 +160,15 @@
                 <img src="media/TuneDetect.png" alt="TuneDetect Icon" class="product-icon">
                 <h2 class="product-name">TuneDetect</h2>
             </div>
-            <h3 class="product-headline">Song Recognition by Sound</h3>
-            <p class="product-desc">
+            <h3 class="product-headline" data-i18n="tunedetect_headline">Song Recognition by Sound</h3>
+            <p class="product-desc" data-i18n="tunedetect_desc">
                 Instantly identify any song playing around you. Ultra-fast recognition with direct links to Spotify, YouTube, and Apple Music. Clean Material You design with full search history.
             </p>
             <div class="tech-stack-pills">
                 <span class="tech-pill">Compose</span>
                 <span class="tech-pill">ACRCloud API</span>
             </div>
-            <a href="https://play.google.com/store/apps/details?id=hrk.studio.tunedetect" target="_blank" class="btn-primary">Download App</a>
+            <a href="https://play.google.com/store/apps/details?id=hrk.studio.tunedetect" target="_blank" class="btn-primary" data-i18n="btn_download">Download App</a>
         </div>
         <div class="product-visual">
             <img src="media/tuneDetectBanner.png" alt="TuneDetect Showcase" class="product-banner">
@@ -174,8 +181,8 @@
 <div class="container main-content">
     
     <div class="section-header reveal fade-up">
-        <h2 class="section-title">Behind the Ecosystem</h2>
-        <p class="section-subtitle">The architect bridging the gap between code and user emotion.</p>
+        <h2 class="section-title" data-i18n="founder_title">Behind the Ecosystem</h2>
+        <p class="section-subtitle" data-i18n="founder_subtitle">The architect bridging the gap between code and user emotion.</p>
     </div>
 
     <section class="founder-section reveal fade-up delay-1">
@@ -186,19 +193,19 @@
                     <img src="media/avatar.png" alt="Nguyễn Đức Long" class="large-avatar">
                     <h3>Nguyễn Đức Long</h3>
                     <p class="role">Android Developer</p>
-                    <p class="bio">
+                    <p class="bio" data-i18n="founder_bio">
                         With over 5 years of Android development experience, I excel in building premium, high-performance applications. I craft fluid UIs with Jetpack Compose, enforce clean architecture, and aim to deliver top-tier user experiences.
                     </p>
                     
                     <div class="contact-links">
                         <a href="mailto:longhrk.dev@gmail.com" class="contact-pill"><span class="icon">✉️</span> longhrk.dev@gmail.com</a>
-                        <a href="https://github.com/LongHRK1912" target="_blank" class="contact-pill"><span class="icon">💻</span> GitHub</a>
+                        <a href="https://github.com/LongHRK1912/showcase" target="_blank" class="contact-pill"><span class="icon">💻</span> GitHub</a>
                         <a href="https://www.youtube.com/@longhrk" target="_blank" class="contact-pill"><span class="icon">🎥</span> YouTube</a>
                     </div>
                 </div>
 
                 <div class="founder-expertise">
-                    <h4>Core Expertise</h4>
+                    <h4 data-i18n="founder_expertise">Core Expertise</h4>
                     <div class="skills-grid">
                         <div class="skill-item">Kotlin</div>
                         <div class="skill-item">Jetpack Compose</div>
@@ -209,12 +216,12 @@
                         <div class="skill-item">Firebase & CI/CD</div>
                     </div>
 
-                    <h4 style="margin-top: 40px;">Professional Journey</h4>
+                    <h4 style="margin-top: 40px;" data-i18n="founder_journey">Professional Journey</h4>
                     <div class="timeline-compact">
                         <div class="timeline-item">
                             <div class="timeline-dot"></div>
                             <div class="timeline-content">
-                                <strong>Locstock & GiotMauVang</strong> <span>(2023 - Present)</span>
+                                <strong>Locstock & GiotMauVang</strong> <span data-i18n="journey_present">(2023 - Present)</span>
                                 <div class="text-muted">INTELIN TECHNOLOGY CORP</div>
                             </div>
                         </div>
@@ -235,7 +242,7 @@
     <!-- FOOTER INFO -->
     <footer class="footer reveal fade-up delay-2">
         <p class="footer-title">HRK Studio</p>
-        <p class="text-muted">© 2025 – 2026 LongHRK. Built with ❤️ in Vietnam 🇻🇳</p>
+        <p class="text-muted" data-i18n="footer_copy">© 2025 – 2026 LongHRK. Built with ❤️ in Vietnam 🇻🇳</p>
     </footer>
 </div>
 
