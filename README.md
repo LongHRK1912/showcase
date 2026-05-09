@@ -1,6 +1,63 @@
 # My Projects
 **HRK Studio** – Built with love in Vietnam 🇻🇳
 
+[![Google Play](https://img.shields.io/badge/Google_Play-5_Apps_Published-34a853?style=for-the-badge&logo=googleplay&logoColor=white)](https://play.google.com/store/apps/dev?id=8558908657643993911)
+[![GitHub](https://img.shields.io/badge/GitHub-LongHRK1912-24292e?style=for-the-badge&logo=github&logoColor=white)](https://github.com/LongHRK1912)
+
+> HRK Studio delivers emotional and useful apps: message your future self, detect songs instantly, secure your private files, track your health — all with clean design and full privacy.
+
+---
+
+### VitaBeat – Med & Heart Monitor
+<p align="center">
+  <br>
+  <a href="https://play.google.com/store/apps/details?id=com.hrk.vitabeat">
+    <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" width="220"/>
+  </a>
+</p>
+
+**Smart pill reminder, medication tracker & camera heart rate monitor.**
+
+Stay on top of your health with intelligent scheduling and real-time vitals monitoring — all in one app.
+
+#### Key Features
+- Smart medication reminders with flexible scheduling
+- Camera-based heart rate monitoring (PPG)
+- Medication history tracking & analytics
+- Clean Material Design 3 interface
+- Local-first with privacy focus
+
+**Tech Stack**  
+Kotlin • Jetpack Compose • Room • WorkManager • CameraX • Material 3
+
+[Download on Google Play](https://play.google.com/store/apps/details?id=com.hrk.vitabeat)
+
+---
+
+### PicPulse – Daily Photo Journal
+<p align="center">
+  <br>
+  <a href="https://play.google.com/store/apps/details?id=com.hrk.picpulse">
+    <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" width="220"/>
+  </a>
+</p>
+
+**Capture one photo a day with automatic time, location and gentle reminders.**
+
+Build a visual diary of your life, one snapshot at a time.
+
+#### Key Features
+- One photo per day — simple & focused
+- Automatic time & location tagging
+- Gentle daily reminders
+- Beautiful photo timeline view
+- Privacy-first — no cloud uploads by default
+
+**Tech Stack**  
+Kotlin • Jetpack Compose • Room • CameraX • WorkManager • Material 3
+
+[Download on Google Play](https://play.google.com/store/apps/details?id=com.hrk.picpulse)
+
 ---
 
 ### Vault-X – Private Encrypted File Vault
@@ -16,7 +73,7 @@
 
 **Absolute privacy. Military-grade encryption. Zero knowledge.**
 
-Your photos, videos, documents and any files are encrypted with **AES-256-GCM** and stored only in Android’s private internal storage — completely hidden from other apps and file managers.
+Your photos, videos, documents and any files are encrypted with **AES-256-GCM** and stored only in Android's private internal storage — completely hidden from other apps and file managers.
 
 **Privacy by design**  
 ✔ No tracking • No analytics • No accounts • No cloud by default  
@@ -108,5 +165,5 @@ One-line setup • Koin-ready • Minimal & clean API.
 
 ---
 
-© 2025 LongHRK – HRK Studio  
+© 2025 – 2026 LongHRK – HRK Studio  
 All apps are built with ❤️ in Vietnam
